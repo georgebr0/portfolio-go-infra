@@ -1,0 +1,9 @@
+build:
+	docker build -t portfolio-go-infra .
+
+run:
+	docker run -p 8080:8080 --env-file .env portfolio-go-infra
+
+lint:
+	go fmt ./...
+	go vet ./...

@@ -1,0 +1,15 @@
+/portfolio-go-infra
+  /cmd
+    /api
+      main.go
+  /internal
+    /database
+      firestore.go
+  /pkg
+    /models
+      status.go
+  Dockerfile
+  .gitignore
+  go.mod
+  Makefile
+  README.md

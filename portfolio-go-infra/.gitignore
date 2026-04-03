@@ -1,0 +1,15 @@
+# Ignorar chaves de segurança do Firebase
+*.json
+!package.json
+
+# Ignorar binários compilados
+/main
+*.exe
+
+# Ignorar dependências do Go
+/go.sum
+/go.mod
+
+# Ignorar arquivos de ambiente local
+.env
+.env.local
